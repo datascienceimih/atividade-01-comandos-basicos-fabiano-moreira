@@ -146,4 +146,5 @@ matrix(x, ncol = 4, nrow = 4) #Gerando uma matrix do objeto x, com 4 colunas e 4
 ## [3,]   48  112  176  240
 ## [4,]   64  128  192  256
 
-
+# Se quiser fazer em uma linha só:
+matrix(data = seq(from=16, to=256, by=16), ncol = 4, nrow = 4)
